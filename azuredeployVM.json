@@ -31,7 +31,7 @@
     },
     "publicIpName": {
       "type": "string",
-      "defaultValue": "myPublicIP",
+      "defaultValue": "INTRADC1-IP",
       "metadata": {
         "description": "Name for the Public IP used to access the Virtual Machine."
       }
@@ -97,7 +97,7 @@
     },
     "vmName": {
       "type": "string",
-      "defaultValue": "simple-vm",
+      "defaultValue": "INTRADC1",
       "metadata": {
         "description": "Name of the virtual machine."
       }
@@ -110,8 +110,8 @@
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
-    "virtualNetworkName": "MyVNET",
-    "networkSecurityGroupName": "default-NSG"
+    "virtualNetworkName": "rg-aignat-weu-vnet",
+    "networkSecurityGroupName": "INTRADC1-NSG"
   },
   "resources": [
     {
