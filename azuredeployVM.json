@@ -111,7 +111,7 @@
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
     "virtualNetworkName": "rg-aignat-weu-vnet",
-    "networkSecurityGroupName": "INTRADC2-NSG"
+    "networkSecurityGroupName": "INTRADC1-NSG"
   },
   "resources": [
     {
