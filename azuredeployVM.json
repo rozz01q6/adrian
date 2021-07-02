@@ -106,9 +106,9 @@
   "functions": [],
   "variables": {
     "storageAccountName": "[format('bootdiags{0}', uniqueString(resourceGroup().id))]",
-    "nicName": "myVMNic2",
+    "nicName": "myVMNic",
     "addressPrefix": "10.0.0.0/16",
-    "subnetName": "Subnet",
+    "subnetName": "Subnet-2",
     "subnetPrefix": "10.0.0.0/24",
     "virtualNetworkName": "rg-aignat-weu-vnet",
     "networkSecurityGroupName": "INTRADC1-NSG"
